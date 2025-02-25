@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Passions+Conflict&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+.poppins {
+  font-family: "Poppins", serif;
+}
+
+.font_mar {
+  font-family: "Agbalumo", serif
+}
+
+.font-fensi {
+  font-family: "Passions Conflict", serif;
+}
+
+
+/* Header Section */
+.header_div {
+  @apply flex justify-center relative p-4 w-[800px] rounded-full text-blue-50 border-blue-500 gap-10 text-xl
+}
+
+.active {
+  @apply text-red-400
+}
+
+.navlink {
+  @apply text-3xl
+}
+
+:root {
+  @apply bg-gradient-to-b from-cyan-950 to-cyan-600
+}
+
+@keyframes glossy {
+  0% {
+    translate: translateX(-100%);
+  }
+
+  100% {
+    transition: translateX(100%);
+  }
+}
+
+.animate-glossy {
+  animation: glossy 2s infinite;
+}
+
+.mar {
+  padding-bottom: 10px;
+  background: linear-gradient(to left,
+      #937cfae3, #5ef8cae3, #d364ffe3, #5ef8cae3, #937cfae3);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 200%;
+  }
+}
