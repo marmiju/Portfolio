@@ -22,7 +22,7 @@
 }
 
 .active {
-  @apply text-red-400
+  @apply text-cyan-500
 }
 
 .navlink {

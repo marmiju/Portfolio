@@ -8,8 +8,6 @@ function App() {
 
   return (
     <div className=''>
-      <Header></Header>
-
       <Routes>
         <Route path='/' element={<Home></Home>} />
         <Route path='/about' element={<h1 className='text-white w-full h-screen' >MAR miju</h1>} />
