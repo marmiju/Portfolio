@@ -1,9 +1,19 @@
 import React from 'react'
+import hero from '../../assets/astronot/hero.png'
+import Content from './Content'
+import Asto from './asto'
 
-const heroContent = () => {
+
+const HeroContent = () => {
     return (
-        <div>heroContent</div>
+        <div className="flex max-w-[1200px] mx-auto flex-col-reverse md:flex-row">
+            <Content />
+            <Asto></Asto>
+
+
+        </div>
+
     )
 }
 
-export default heroContent
+export default HeroContent
