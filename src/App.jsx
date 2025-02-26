@@ -10,11 +10,10 @@ function App() {
     <div className=''>
       <Routes>
         <Route path='/' element={<Home></Home>} />
-        <Route path='/about' element={<h1 className='text-white w-full h-screen' >MAR miju</h1>} />
+        <Route path='/about' element={<Header></Header>} />
       </Routes>
 
     </div>
   )
 }
-
 export default App

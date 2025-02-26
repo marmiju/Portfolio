@@ -6,6 +6,7 @@ const Home = () => {
     return (
         <>
             <Hero></Hero>
+            <div className="h-screen w-full"></div>
         </>
     );
 };
