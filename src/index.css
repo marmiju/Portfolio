@@ -65,3 +65,7 @@
     background-position: 200%;
   }
 }
+
+.bg_div {
+  @apply h-44 w-44 rounded-md;
+}

@@ -7,7 +7,7 @@ const Content = () => {
             <h1 className='text-white text-3xl poppins font-bold md:text-6xl'>Hello I'm
             </h1>
             <span className='bg-gradient-to-r mar font-bold font_mar text-4xl md:text-8xl'>MAR miju</span>
-            <p className='text-white text-sm'>Software Developer at Innovate Digital, specializing in Flutter, React, Java, and more. Currently exploring the world of Artificial Intelligence, driven by my passion for continuous learning and skill development. My goal is to work on groundbreaking projects, solve complex problems, and make a meaningful impact. In the long run, I aspire to become a Software Developer with a strong focus on AI-driven solutions</p>
+            <p className='text-white text-sm'>Passionate about building innovative, high-performing applications using Flutter, MERN Stack, and AI technologies.</p>
             <Social_media></Social_media>
         </div>
     )
