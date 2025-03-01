@@ -7,7 +7,7 @@ import leetcode from "../../assets/Icons/leetcode.png"
 const Social_media = () => {
     return (
         <div className='flex justify-center items-center mt-4'> {/*SOcial Media  */}
-            <div className='flex rounded-full text-black pr-[2px] justify-around gap-2 items-center'>
+            <div className='flex rounded-full  pr-[2px] justify-around gap-2 drop-shadow-2xl items-center'>
                 <a href='https://facebook.com/dev.mar.miju'><img src={facebook}></img></a>
                 <a href='https://www.linkedin.com/in/marmiju/'><img src={linkedin}></img></a>
                 <a href='https://github.com/marmiju'><img src={github}></img></a>

@@ -6,7 +6,8 @@ import Asto from './asto'
 
 const HeroContent = () => {
     return (
-        <div className="flex max-w-[1200px] mx-auto h-screen flex-col-reverse md:flex-row justify-end items-end ">
+        <div className="flex max-w-[1200px] mx-auto max-h-screen md:h-screen items-start md:items-center flex-col-reverse md:flex-row  ">
+
             <Content />
             <Asto></Asto>
 

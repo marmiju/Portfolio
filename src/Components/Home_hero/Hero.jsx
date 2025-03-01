@@ -7,8 +7,8 @@ import HeroContent from '../hero_content.jsx/heroContent';
 const Hero = () => {
     return (
         <div
-            className="h-screen bg-cover bg-center"
-            style={{ backgroundImage: `url(${bgimage})` }}
+            className="bg-cover bg-center"
+        // style={{ backgroundImage: `url(${bgimage})` }}
         >
             <Header />
             <HeroContent></HeroContent>

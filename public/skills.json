@@ -1,0 +1,104 @@
+[
+    {
+        "programming_languages": [
+            {
+                "name": "Python",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/archive/c/c3/20220821154536%21Python-logo-notext.svg"
+            },
+            {
+                "name": "JavaScript",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            },
+            {
+                "name": "C",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+            },
+            {
+                "name": "Java",
+                "img": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+            },
+            {
+                "name": "C++",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+            },
+            {
+                "name": "Dart",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png"
+            }
+        ],
+        "web_development": {
+            "frontend": [
+                {
+                    "name": "HTML",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                },
+                {
+                    "name": "CSS",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                },
+                {
+                    "name": "React",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                }
+            ],
+            "backend": [
+                {
+                    "name": "Node.js",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                },
+                {
+                    "name": "Express.js",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+                }
+            ],
+            "databases": [
+                {
+                    "name": "MongoDB",
+                    "img": "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg"
+                },
+                {
+                    "name": "MySQL",
+                    "img": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+                }
+            ],
+            "version_control": [
+                {
+                    "name": "Git",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                }
+            ]
+        },
+        "mobile_development": {
+            "android": [
+                {
+                    "name": "Java (Android)",
+                    "img": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+                }
+            ],
+            "cross_platform": [
+                {
+                    "name": "Flutter",
+                    "img": "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png"
+                }
+            ]
+        },
+        "data_science_ai_ml": [
+            {
+                "name": "NumPy",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg"
+            },
+            {
+                "name": "TensorFlow",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
+            }
+        ]
+    }
+]
